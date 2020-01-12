@@ -123,7 +123,7 @@ class Home extends React.Component {
 
 export const experienceGallery = graphql`
   {
-    experienceGallery: contentfulPhotoGallery(contentful_id: {eq: "1bHgQkdhWaq9xz7j0Xmtzg"}) {
+    experienceGallery: contentfulPhotoGallery(contentful_id: {eq: "1TfXthEmsHciR8BNdaeWdA"}) {
       images {
         photo {
           file {
@@ -142,7 +142,7 @@ export const experienceGallery = graphql`
         }
       }
     }
-    hobbyGallery: contentfulPhotoGallery(contentful_id: {eq: "5cjpr2VFg4AADAOYMEK1AK"}) {
+    hobbyGallery: contentfulPhotoGallery(contentful_id: {eq: "1pimwQakflqVioLm9cn6SC"}) {
       images {
         photo {
           file {
