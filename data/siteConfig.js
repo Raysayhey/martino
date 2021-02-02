@@ -1,8 +1,8 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
+  siteTitle: 'Claudio De Martino GmbH?',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
+  authorName: 'Ray',
   twitterUsername: '_franciscodf',
   githubUsername: 'santosfrancisco',
   authorAvatar: '/images/avatar.jpeg',
@@ -10,32 +10,40 @@ module.exports = {
     In 2012 I started working as a support technician and I approached the developers.
     In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
     I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
-  skills: [
-    {
-      name: 'HTML',
-      level: 70
-    },
-    {
-      name: 'CSS',
-      level: 60
-    },
-    {
-      name: 'Javascript',
-      level: 50
-    },
-    {
-      name: 'NodeJs',
-      level: 40
-    },
-    {
-      name: 'React',
-      level: 60
-    },
-    {
-      name: 'Git',
-      level: 70
-    }
-  ],
+  kontakt: `<strong>Name </strong> <br />
+  Strasse hausnummer etc. <br />
+  <br />
+  <strong>Irgendwas, </strong>
+  contribute with the team <br />
+  <br />
+  giving maintenance in an application <br />
+    I currently work as a frontend developer and <strong>Javascript, </strong>`,
+  // skills: [
+  //   {
+  //     name: 'HTML',
+  //     level: 70
+  //   },
+  //   {
+  //     name: 'CSS',
+  //     level: 60
+  //   },
+  //   {
+  //     name: 'Javascript',
+  //     level: 50
+  //   },
+  //   {
+  //     name: 'NodeJs',
+  //     level: 40
+  //   },
+  //   {
+  //     name: 'React',
+  //     level: 60
+  //   },
+  //   {
+  //     name: 'Git',
+  //     level: 70
+  //   }
+  // ],
   jobs: [
     {
       company: "Lendico",

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'react-awesome-styled-grid'
-import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa"
+import { FaEnvelope} from "react-icons/fa"
 import siteConfig from '../../data/siteConfig'
 
 import Layout from '../components/layout'
@@ -9,10 +9,10 @@ import Hero from '../components/hero'
 import SEO from '../components/SEO'
 import Wrapper from '../components/wrapper'
 import About from '../components/about'
-import Skills from '../components/skills'
+// import Skills from '../components/skills'
 import Timeline from '../components/timeline'
 import GridImages from '../components/grid-images'
-import Repositories from '../components/repositories'
+// import Repositories from '../components/repositories'
 import Tabs from "../components/tabs";
 import { graphql } from 'gatsby'
 import Carousel from 'react-images';
@@ -77,7 +77,7 @@ class Home extends React.Component {
                   src='/images/avatar.jpeg'
                   alt='user avatar'
                 />
-                <div className="social">
+                {/* <div className="social">
                   {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>
                     <FaGithub className="social-icon" size="32" />
                   </a>}
@@ -90,22 +90,24 @@ class Home extends React.Component {
                   {siteConfig.social.email && <a className="social-link email" href={`mailto:${siteConfig.social.email}`}>
                     <FaEnvelope className="social-icon" size="32" />
                   </a>}
-                </div>
+                </div> */}
               </Col>
             </Row>
             <Row>
               <Col xs={4} sm={4}>
                 <About title='About' text={siteConfig.authorDescription}/>
               </Col>
+             
               <Col xs={4} sm={4}>
-                <Skills title='Skills' skills={siteConfig.skills} />
+                <About title='Kontakt' text={siteConfig.kontakt} />
               </Col>
             </Row>
             <Separator />
             <Tabs
               items={[
-                ["Experience",  <FaEnvelope className="social-icon" size="32" />,<Timeline />],
-                ["Gallery",  <FaEnvelope className="social-icon" size="32" />, <GridImages images={filteredExperiencedImages} isLoading={loading} />],
+                ["Sanitär",  <FaEnvelope className="social-icon" size="32" />,<Timeline />],
+                ["Glasbläser",  <FaEnvelope className="social-icon" size="32" />, 
+                <GridImages images={filteredExperiencedImages} isLoading={loading} />],
               ]}
             />
             <Separator />
@@ -113,7 +115,7 @@ class Home extends React.Component {
               <GridImages images={filteredHobbyImages} isLoading={loading} />
             </div>
             <Separator />
-            <Repositories />
+            {/* <Repositories /> */}
           </Container>
         </Wrapper>
       </Layout>

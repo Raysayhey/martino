@@ -85,7 +85,7 @@ class Header extends React.Component {
               </HeaderLink>
             ))}
           </HeaderLinkGroup>
-          <GithubLink />
+          {/* <GithubLink /> */}
         </HeaderNav>
       </HeaderWrapper>
     )

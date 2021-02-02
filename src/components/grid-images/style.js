@@ -14,6 +14,7 @@ export const Image = styled.div`
   float: left;
   height: 16%;
   margin: gutter;
+  margin: 5px;
   overflow: hidden;
   position: relative;
   width: calc(25% - ${gutter * 2}px);
